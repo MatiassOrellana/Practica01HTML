@@ -1,0 +1,21 @@
+#image {
+    margin: 0;
+    padding: 0;
+    background: url(anime\ mix\ 6.jpg);   
+    background-size: cover;/*posicion de la imagen*/
+    background-position: center;/*posicion de la imagen*/
+    background-attachment: fixed;/*ajusta la imagen*/
+}
+
+.panel {
+    position: absolute;/*mejora el panel*/
+    top: 5%;/*ubica la posición vertical con respecto al borde*/
+    left: 50%;/*ubica la posicion horizontal con respecto al borde*/
+    transform: translate(-50%, 0);/*traslada el panel, si estan igual con el left, se centra el panel*/
+    background-color: rgba(255, 255, 255, 1); /* Fondo del panel con transparencia */
+    padding: 25px;
+}
+
+.contenido-panel {
+    text-align: left;/*el contenido dentro del panel*/
+}

@@ -1,0 +1,45 @@
+h1,h2,h4, p,#table0, #table1, #table2, #table3{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+h4{
+    font-size: 24px;
+    color: #2435cc;
+
+}
+
+.contenedor {
+    text-align: right; /* Alinea el contenido a la derecha */
+}
+
+.imagen-achicada {
+    width: 150px; /* Ancho deseado */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
+/*nivel de tabla*/
+#table0{
+    background-color: #ffd1f9;
+}
+
+#table1{
+    background-color: #97a0f5;
+}
+
+#table2{
+    background-color: #97f5a7;
+}
+#table3{
+    background-color: #ffff00;
+}
+th, td, thead{
+    border: 2px solid #000;
+    text-align: center;
+    vertical-align: top;
+}

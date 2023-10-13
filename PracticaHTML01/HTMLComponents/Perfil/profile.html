@@ -3,75 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <title>Mi Perfil</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/fondo.css">
     <script src="script.js"></script>
+
 </head>
-<body>
-    <h1>Mi Perfil</h1>
-    <h2>Nombre: Matias Orellana</h2>
-    <p>Soy estudiante de ingeneria civil en computacion e informatica en la ucn</p>
+<body id="image">
 
-    <section>
-        <h2>edad: 24 años</h2>
-        <h3>correo: matias.orellana@gmail.com</h3>
-        <h3>ciudad donde vivo: Antofagasta</h3>
-        <h3>ciudad donde nací: San Bernardo</h3>
-    </section>
+    <div class="panel">
 
-    <section1>
+        <h1>Mi Perfil</h1>
 
-        <h4>Mis pasatiempos:</h4>
-        <h5>Jugar computador, ver videos, leer para optimizar tiempos,tocar guitarra, salir
-        </h5>
-
-    </section1>
-
-    <section2>
-
-        <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col">Tecnologias y herramientas que utilizar</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Computador</td>
-
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Televisor con control remoto</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Microondas</td>
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>Lavadora</td>
-              </tr>
-              <tr>
-                <th scope="row">5</th>
-                <td>Secador de pelo</td>
-              </tr>
-              <tr>
-                <th scope="row">6</th>
-                <td>Cafetera</td>
-              </tr>
-              <tr>
-                <th scope="row">7</th>
-                <td>Horno</td>
-              </tr>
-              <tr>
-                <th scope="row">8</th>
-                <td colspan="2">Radio</td>
-              </tr>
-            </tbody>
-          </table>
-
-    </section2>
+        <div class="contenido-panel">
+            <div>
+                <div class="contenedor">
+                    <img src="Images/selfie web.jpg" class="imagen-achicada" alt="MiFoto">
+                </div>
+            </div>
+            <h2>Nombre</h2>
+            <h4>Matias Orellana</h4>
+            <h2>Descripción</h2>
+            <p>Soy estudiante de ingeneria civil en computacion e informatica en la ucn</p>
+            
+        
+            <section>
+        
+                <h2>Datos personales</h2>
+                <table id="table3">
+                    <tbody>
+                        <tr>
+                            <th>Edad</th>
+                            <td>24 años</td>
+                        </tr>
+                        <tr>
+                            <th>Correo</th>
+                            <td>matias.orellana@alumnos.ucn.cl</td>
+                        </tr>
+                        <tr>
+                            <th>Ciudad donde vivo</th>
+                            <td>Antofagasta</td>
+                        </tr>
+                        <tr>
+                            <th>Ciudad donde nací</th>
+                            <td>San Bernardo</td>
+                        </tr>
+                    </tbody>
+        
+                </table>
+            </section>
+        
+            <section1>
+        
+                <table id="table2">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th scope="col">Mis pasatiempos e intereses</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <td>Jugar computador</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>Ver videos</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td>leer para optimizar tiempos</td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td>tocar guitarra</td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td>salir</td>
+                        </tr>   
+                        <tr>
+                            <th>6</th>
+                            <td>Ordenar mi pieza</td>
+                        </tr>        
+                        <tr>
+                            <th>7</th>
+                            <td>Hacer buenos hábitos para mejorar mi estado fisico y mental</td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+            </section1>
+        
+            <section2>
+        
+                
+        
+                <table id="table1">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th scope="col">Tecnologias y herramientas que utilizar</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>Computador</td>
+        
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>Televisor con control remoto</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>Microondas</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>Lavadora</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td>Secador de pelo</td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td>Cafetera</td>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <td>Horno</td>
+                    </tr>
+                    </tbody>
+                </table>
+        
+            </section2>
+        
+            <section3>
+                <h2>Mis redes sociales</h2>
+                <table id="table0">
+                    <tbody>
+                        <tr>
+                            <th>Instagram</th>
+                            <td>
+                                <a href="https://www.instagram.com/matador_hd_xd/" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">Entrar Aquí</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Facebook</th>
+                            <td>
+                                <a href="https://web.facebook.com/matias.orellana.3388" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">Entrar Aquí</a>
+                            </td>
+                        </tr>
+                    </tbody>
+        
+                </table>
+            </section3>
+        </div>
+    </div>
+    
 </body>
 </html>
